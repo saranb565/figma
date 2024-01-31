@@ -1,0 +1,236 @@
+
+body {
+    margin: 0;
+}
+footer {
+    background-color: #FFA500;
+    color: white;
+   
+    display: flex;
+    align-items: center;
+    gap: 655px;
+}
+.footer_word {
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    gap: 169px;
+    margin-left: 115px;
+}
+.footer_three {
+    display: flex;
+    gap: 19px;
+}
+.footer_three>img:hover {
+    border-radius: 12px;
+    background-color: white;
+}
+p.footer_e {
+    font-size: 16px;
+    margin-top: 17px;
+}
+p.footer_e:hover {
+    color: black;
+}
+p.footer_h {
+    margin-bottom: 0;
+    font-size: 30px;
+}
+
+/*Contact*/
+
+contact {
+    
+    background-image: url(./Contac_bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.contact_h>h1 {
+    font-size: 100px;
+    margin-left: 72px;
+    margin-top: 65px;
+    margin-bottom: 74px;
+}
+.contact_bottom {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    margin-left: 72px;
+    gap: 92px;
+    align-items: baseline;
+    margin-bottom: 29px;
+}
+.contact_left {
+    font-size: 24px;
+}
+.contact_details {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.name_mail {
+    display: flex;
+    gap: 93px;
+}
+.contact_textbox {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 0px;
+}
+#message>.contact_textbox {
+    width: 100%;
+}
+.contact_number {
+    color: #FFA500;
+    font-size: 40px;
+}
+.contact_address {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 59px;
+}
+.contact_address .contact_p {
+    color: #737373;
+}
+.contact_address>div>h6, .contact_address>div>p {
+    margin: 0;
+}
+.contact_submit {
+    font-size: 16px;
+    margin-left: 490px;
+    margin-top: 65px;
+    width: 193px;
+    height: 58px;
+    color: white;
+    border-radius: 12px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #FFA500;
+}
+.contact_submit:hover {
+    background-color: black;
+}
+.packers {
+    margin: 0;
+    width: 100%;
+}
+#message {
+    margin-top: 30px;
+}
+
+/*middle*/
+middle {
+    display: flex;
+    justify-content: space-around;
+    padding: 74px 0px 74px 0px;
+    
+}
+middle>div>p {
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+}
+middle>div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+/*header*/
+header {
+    background:linear-gradient(0deg, rgba(0, 50, 86, 0.9), rgba(0, 50, 86, 0.9)), url(ppl.jpg);
+    background-size: cover;
+}
+.titlebar {
+    display: flex;
+    gap: 292px;
+    align-items: center;
+}
+nav {
+    color: white;
+   
+    display: flex;
+    gap: 27px;
+    margin-top: 20px;
+}
+nav>p:hover {
+    color: black;
+}
+span {
+    color: #FFA500;
+}
+header>div>img {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.content {
+    color: white;
+    
+    width: 667px;
+    margin-left: 43px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#difference {
+    font-size: 100px;
+    margin: 0%;
+    margin-top: 161px;
+}
+#loremipsum {
+    width: 465px;
+    font-size: 24px;
+    margin: 0px;
+}
+#joinus {
+    
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #FFA500;
+    border-radius: 12px;
+    padding: 20px 42px;
+}
+#joinus:hover {
+    background-color: black;
+}
+.header_images {
+    display: flex;
+    flex-direction: column;
+    width: 590px;
+    gap: 74px;
+    margin-left: 40px;
+    margin-top: 161px;
+}
+.header_images_bottom {
+    display: flex;
+    gap: 65px;
+    width: 260px;
+}
+.header_body {
+    display: inline-flex;
+}
+.search {
+    display: flex;
+    width: 302px;
+    height: 28px;
+}
+.search>button {
+    background-color:#0F4871;
+}
+
+#loremipsum2 {
+    color: #0F4871;
+    font-size: 18px;
+    margin-left: 41px;
+    width: 421px;
+}
+heroes span {
+    font-size: 100px;
+    margin-left: 41px;
+}
